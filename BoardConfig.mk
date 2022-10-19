@@ -24,7 +24,7 @@ BOARD_SUPER_PARTITION_SIZE := 15032385536
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.qcom
-TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
+TARGET_RECOVERY_DENSITY := xxhdpi
 
 # Include the proprietary files BoardConfig.
 include vendor/oneplus/instantnoodle/BoardConfigVendor.mk
