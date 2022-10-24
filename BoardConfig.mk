@@ -27,4 +27,4 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.qcom
 TARGET_RECOVERY_DENSITY := xxhdpi
 
 # Include the proprietary files BoardConfig.
-include vendor/oneplus/instantnoodle/BoardConfigVendor.mk
+-include vendor/oneplus/instantnoodle/BoardConfigVendor.mk
